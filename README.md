@@ -1,4 +1,4 @@
-📱 ChatMe – Simple Android Chat App
+📱 ChatMe – Simple Android Chat App - Kotlin (xml)
 ChatMe is a lightweight Android chat application that allows users to securely chat one-on-one in real time.
 
 ✨ Features
