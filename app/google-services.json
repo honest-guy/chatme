@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1006061979258",
+    "project_id": "chatme-e81c1",
+    "storage_bucket": "chatme-e81c1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006061979258:android:2b44db8467dd5b91d01dc3",
+        "android_client_info": {
+          "package_name": "codinghacks.org.chatme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCDO38DLoQYYSMn5QfT04blC6cJ8BzPrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

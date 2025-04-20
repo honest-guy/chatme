@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chatme</string>
+    <string name="chats">Chats</string>
+    <string name="profile">Profile</string>
+    <string name="chatme">ChatMe</string>
+    <string name="search">Search</string>
+</resources>

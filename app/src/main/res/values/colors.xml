@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app_blue">#FF0160A5</color>
+    <color name="app_green">#FF90B92E</color>
+    <color name="material_green">#FB8C00</color>
+    <color name="new_material_green">#c9ee9e</color>
+    <color name="colorPrimary">#FF90B92E</color>
+    <color name="colorPrimaryMain">#FF3700B3</color>
+    <color name="cardCornerColor">#6082B6</color>
+    <color name="cardBackgroundColor">#aaf0e4</color>
+    <color name="newCardBackgroundColor">#CBC475</color>
+    <color name="buttonBackgroundColor">#4c6700</color>
+    <color name="newButtonBackgroundColor">#496727</color>
+    <color name="gray_Color">#787878</color>
+    <color name="scrollingUnselectedIndicatorColor">#5A5A5A</color>
+</resources>

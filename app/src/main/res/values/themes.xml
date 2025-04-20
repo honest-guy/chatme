@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Chatme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Chatme" parent="Base.Theme.Chatme" />
+    <style name="MyCustomTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--  Customize your theme here.  -->
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/material_green</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/material_green</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+    <style name="App.Material3.NavigationView." parent="Widget.Material3.NavigationView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">40dp</item>
+        <item name="drawerLayoutCornerSize">10dp</item>
+    </style>
+    <style name="App.Material3.NavigationView" parent="Widget.Material3.NavigationView">
+        <item name="drawerLayoutCornerSize">0dp</item>
+    </style>
+    <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <item name="android:textColorHint">@color/black</item>
+    <item name="boxStrokeColor">@color/edit_text_box_border</item>
+    <item name="boxStrokeWidth">2dp</item>
+    <item name="hintTextColor">@color/app_blue</item>
+    <item name="boxCornerRadiusTopEnd">20dp</item>
+    <item name="boxCornerRadiusTopStart">20dp</item>
+    <item name="boxCornerRadiusBottomStart">20dp</item>
+    <item name="boxCornerRadiusBottomEnd">20dp</item>
+    <item name="android:drawablePadding">10dp</item>
+
+    </style>
+    <!-- <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+          <item name="android:windowNoTitle">true</item>
+            <item name="android:windowActionBar">false</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="android:windowIsTranslucent">true</item>
+
+
+
+        </style> -->
+    <style name="MyTextInputEditText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:colorControlActivated">@android:color/black</item>
+        <item name="android:colorControlNormal">@android:color/black</item>
+        <item name="android:colorControlHighlight">@android:color/black</item>
+        <item name="android:backgroundTint">@android:color/black</item>
+        <item name="android:colorAccent">@android:color/black</item>
+    </style>
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="colorAccent">#fff</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="SearchView" parent="TextAppearance.Material3.SearchView">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:queryHint">@color/black</item>
+    </style>
+</resources>
